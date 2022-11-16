@@ -6,6 +6,8 @@ end
 
 vim.g.catppuccin_flavour = "mocha"
 
-catppuccin.setup()
+catppuccin.setup({
+	transparent_background = true,
+})
 
 vim.cmd([[colorscheme catppuccin]])
